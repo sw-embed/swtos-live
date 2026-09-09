@@ -10,8 +10,11 @@ MINIX IPC principles. This demo runs it on an emulated MakerLisp COR24 -- a
 frontend, entirely in your browser (WebAssembly). No server, nothing to
 install.
 
-Press `Ctrl-O` then `?` for the command list. Panes, zoom, focus and
+Press `Ctrl-B` then `?` for the command list. Panes, zoom, focus and
 copy-mode scrolling are all prefix commands, exactly as on a real terminal.
+
+If your browser claims the prefix key, the **commands** button above the
+screen offers the same commands to a mouse.
 
 ## What this repository is
 
