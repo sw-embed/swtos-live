@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head><meta name="swtos-build" content="a0e0add 2026-09-03T18:54:31Z crc24:53999d stable">
+<head><meta name="swtos-build" content="02ae5a6 2026-09-09T18:47:48Z crc24:0158b8 stable">
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SWTOS — Live Terminal Demo</title>
@@ -8,8 +8,8 @@
     
     
 <script type="module">
-import init, * as bindings from '/web-sw-tos-538115aa932ada15.js';
-const wasm = await init({ module_or_path: '/web-sw-tos-538115aa932ada15_bg.wasm' });
+import init, * as bindings from '/web-sw-tos-a0b55504aace8d3b.js';
+const wasm = await init({ module_or_path: '/web-sw-tos-a0b55504aace8d3b_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -18,7 +18,7 @@ window.wasmBindings = bindings;
 dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
 
 </script>
-    <link rel="stylesheet" href="/app-176da46ffb31373e.css" integrity="sha384-zbFQDzO+b0aOymDj8DvjumMYe5Tr7IgHs9KmhQqSxgeVbTY9cZUOLZJZX9u+8Gma"/>
+    <link rel="stylesheet" href="/app-3d363302c6577b8c.css" integrity="sha384-4w00DEnjjc+kYRIAo9D6iWZzuAfNTAbk8PCDhtb5Eo+N2AHMeJXZw7oOwuSXkgDA"/>
     <style>
         /* Catppuccin Mocha */
         :root {
@@ -60,7 +60,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
         }
         #app { flex: 1; display: flex; flex-direction: column; min-height: 0; }
     </style>
-<link rel="modulepreload" href="/web-sw-tos-538115aa932ada15.js" crossorigin="anonymous" integrity="sha384-UnBR0g7OMvQn5p87YA4+MZ+7z3GVNlPcTmp3LKb6bWgR9QI6bsLCvYqUhdJtpqCb"><link rel="preload" href="/web-sw-tos-538115aa932ada15_bg.wasm" crossorigin="anonymous" integrity="sha384-ZMhq9S8Dn/ZxatiY36FnGw5Z/1+2hKp1ehgyuWUUu+ZvlvrkZpk223BFf4VK0SwK" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/web-sw-tos-a0b55504aace8d3b.js" crossorigin="anonymous" integrity="sha384-iLJtLd2J+g/Ob5ai4MXNKnq43LsfHUPBrQSv1BVurplNW/tzWOBC5SquY3MIJldu"><link rel="preload" href="/web-sw-tos-a0b55504aace8d3b_bg.wasm" crossorigin="anonymous" integrity="sha384-2vVWqTmgvwpyf4Qo4t+o34jB/ZXyJ8wr/mLRIYxY+352FO/0eEseKnNhlhBQiTB8" as="fetch" type="application/wasm"></head>
 <body>
     <div id="app"></div>
 </body>
