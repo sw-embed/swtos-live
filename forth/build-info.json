@@ -1,11 +1,11 @@
 {
   "channel": "evaluation",
   "profile": "forth",
-  "built_at": "2026-10-22T22:10:54Z",
+  "built_at": "2026-10-22T23:44:48Z",
   "web_sw_tos_commit": "ceb81ac (image constants swapped at build time, not committed)",
-  "sw_tos_commit": "956172e plus the uncommitted Forth startup banner",
-  "sw_cor24_forth_commit": "6f936d5",
-  "image": "crc24:3d5908",
-  "image_size": 52592,
-  "note": "Shell pane: bg forth. Forth opens its own pane; tap the screen or the keyboard button to type on a phone; Ctrl-B e (Escape) ends it."
+  "sw_tos_commit": "956172e plus the uncommitted forth layer with MENU/LOAD/LIST/RESET",
+  "sw_cor24_forth_commit": "c90d5de",
+  "image": "crc24:4806d3",
+  "image_size": 56831,
+  "note": "Shell pane: bg forth. In the Forth pane: MENU lists 12 examples, 3 LOAD runs one, 3 LIST prints it, RESET forgets definitions, words are case-insensitive, Escape (Ctrl-B e) ends. Tap the screen or the keyboard button to type on a phone."
 }
