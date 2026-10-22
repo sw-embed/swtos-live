@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SWTOS — Live Terminal Demo</title>
+    <link rel="icon" href="/forth/favicon-bcf144d5b6f95c6d.ico" integrity="sha384-q14nRLPczzRgE8/zaImxLh2AXA8uRRiDIyWyuJhBLDExklCa6ZcQ9ZdgZh27xK6B"/>
+    
+    
+    <!-- /screenshot.png is linked from a public forum post. It must stay at
+         this URL: update the file in place, never move, rename or delete it. -->
+    
+    
+<script type="module">
+import init, * as bindings from '/forth/web-sw-tos-f0534e0d9dd0f37c.js';
+const wasm = await init({ module_or_path: '/forth/web-sw-tos-f0534e0d9dd0f37c_bg.wasm' });
+
+
+window.wasmBindings = bindings;
+
+
+dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
+
+</script>
+    <link rel="stylesheet" href="/forth/app-3d363302c6577b8c.css" integrity="sha384-4w00DEnjjc+kYRIAo9D6iWZzuAfNTAbk8PCDhtb5Eo+N2AHMeJXZw7oOwuSXkgDA"/>
+    <style>
+        /* Catppuccin Mocha */
+        :root {
+            --crust: #11111b;
+            --mantle: #181825;
+            --base: #1e1e2e;
+            --surface0: #313244;
+            --surface1: #45475a;
+            --surface2: #585b70;
+            --overlay0: #6c7086;
+            --overlay1: #7f849c;
+            --overlay2: #9399b2;
+            --subtext0: #a6adc8;
+            --subtext1: #bac2de;
+            --text: #cdd6f4;
+            --lavender: #b4befe;
+            --blue: #89b4fa;
+            --sapphire: #74c7ec;
+            --sky: #89dceb;
+            --teal: #94e2d5;
+            --green: #a6e3a1;
+            --yellow: #f9e2af;
+            --peach: #fab387;
+            --maroon: #eba0ac;
+            --red: #f38ba8;
+            --mauve: #cba6f7;
+            --pink: #f5c2e7;
+            --mono: "JetBrains Mono", "Fira Code", "Cascadia Code", "SF Mono", Menlo, monospace;
+        }
+        * { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: var(--mono);
+            font-size: 15px;
+            background: var(--crust);
+            color: var(--text);
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        #app { flex: 1; display: flex; flex-direction: column; min-height: 0; }
+    </style>
+<link rel="modulepreload" href="/forth/web-sw-tos-f0534e0d9dd0f37c.js" crossorigin="anonymous" integrity="sha384-iLJtLd2J+g/Ob5ai4MXNKnq43LsfHUPBrQSv1BVurplNW/tzWOBC5SquY3MIJldu"><link rel="preload" href="/forth/web-sw-tos-f0534e0d9dd0f37c_bg.wasm" crossorigin="anonymous" integrity="sha384-GEL2LWhUu3VHQIT6qLrc7Z/tBpzVonlf+MHq6b1HsshObz5uJlix1zcpK0Lmmrfe" as="fetch" type="application/wasm"></head>
+<body>
+    <div id="app"></div>
+</body>
+</html>

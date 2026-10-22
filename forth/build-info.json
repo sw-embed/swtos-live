@@ -1,0 +1,11 @@
+{
+  "channel": "evaluation",
+  "profile": "forth",
+  "built_at": "2026-10-22T20:41:24Z",
+  "web_sw_tos_commit": "65c5234 (image constants swapped at build time, not committed)",
+  "sw_tos_commit": "956172e",
+  "sw_cor24_forth_commit": "6f936d5",
+  "image": "crc24:2d4d29",
+  "image_size": 52540,
+  "note": "sw-tos forth profile: in the Shell pane type `run forth --tty=new`, focus the new pane (Ctrl-B 2 or the commands menu), type Forth, leave with Escape (Ctrl-B e). The root site is the unchanged stable build."
+}
