@@ -175,3 +175,30 @@ footer a:hover { text-decoration: underline; }
     color: var(--overlay1);
     margin-top: 2px;
 }
+
+/* The hidden field a phone's keyboard types into. Not display:none, which
+ * cannot take focus: present, tiny and invisible. */
+.keys {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+    border: 0;
+    padding: 0;
+    resize: none;
+    overflow: hidden;
+}
+
+.keyboard-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px 20px;
+}
+
+.keyboard-note {
+    font-size: 0.8em;
+    color: var(--subtext0);
+}
