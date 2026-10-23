@@ -12,8 +12,8 @@
     
     
 <script type="module">
-import init, * as bindings from '/forth/web-sw-tos-54bea2bad1de876a.js';
-const wasm = await init({ module_or_path: '/forth/web-sw-tos-54bea2bad1de876a_bg.wasm' });
+import init, * as bindings from '/forth/web-sw-tos-6b55e29f93957f16.js';
+const wasm = await init({ module_or_path: '/forth/web-sw-tos-6b55e29f93957f16_bg.wasm' });
 
 
 window.wasmBindings = bindings;
@@ -64,7 +64,7 @@ dispatchEvent(new CustomEvent("TrunkApplicationStarted", {detail: {wasm}}));
         }
         #app { flex: 1; display: flex; flex-direction: column; min-height: 0; }
     </style>
-<link rel="modulepreload" href="/forth/web-sw-tos-54bea2bad1de876a.js" crossorigin="anonymous" integrity="sha384-fc4P6UbS5f3ulglcHEOskQ0Wp5F/DZlj44XyWpi+MPIiiEqwpMyJQC0EwDfGWsZ/"><link rel="preload" href="/forth/web-sw-tos-54bea2bad1de876a_bg.wasm" crossorigin="anonymous" integrity="sha384-hzEV6sbMQ2xogdpT8MEHKI3B1xO1rB2C/714qZmfhsUEWk98/MG+i7ILD2ZVP61B" as="fetch" type="application/wasm"></head>
+<link rel="modulepreload" href="/forth/web-sw-tos-6b55e29f93957f16.js" crossorigin="anonymous" integrity="sha384-fc4P6UbS5f3ulglcHEOskQ0Wp5F/DZlj44XyWpi+MPIiiEqwpMyJQC0EwDfGWsZ/"><link rel="preload" href="/forth/web-sw-tos-6b55e29f93957f16_bg.wasm" crossorigin="anonymous" integrity="sha384-94JU7+YF6SZ4e/2rkSzczjUdiLSGoJhqpzkDCzc+xkmoIFooc44Hz6Ic2s3NcDkP" as="fetch" type="application/wasm"></head>
 <body>
     <div id="app"></div>
 </body>

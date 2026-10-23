@@ -1,11 +1,11 @@
 {
   "channel": "evaluation",
   "profile": "forth",
-  "built_at": "2026-10-22T23:44:48Z",
+  "built_at": "2026-10-23T01:00:01Z",
   "web_sw_tos_commit": "ceb81ac (image constants swapped at build time, not committed)",
-  "sw_tos_commit": "956172e plus the uncommitted forth layer with MENU/LOAD/LIST/RESET",
-  "sw_cor24_forth_commit": "c90d5de",
-  "image": "crc24:4806d3",
-  "image_size": 56831,
-  "note": "Shell pane: bg forth. In the Forth pane: MENU lists 12 examples, 3 LOAD runs one, 3 LIST prints it, RESET forgets definitions, words are case-insensitive, Escape (Ctrl-B e) ends. Tap the screen or the keyboard button to type on a phone."
+  "sw_tos_commit": "f52f1ea",
+  "sw_cor24_forth_commit": "97e4bfe",
+  "image": "crc24:f9d3ba",
+  "image_size": 61022,
+  "note": "Shell pane: bg forth. MENU lists 18 examples (13-17 loops/constants/variables, 18 defining, redefining and FORGET); n LOAD runs one, n LIST prints it, RESET starts over; words are case-insensitive; Escape (Ctrl-B e) ends. Tap the screen or the keyboard button to type on a phone."
 }
