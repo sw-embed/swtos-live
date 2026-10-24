@@ -55,7 +55,9 @@ header .tagline { font-size: 14px; color: var(--overlay2); }
     font-variant-ligatures: none;
     font-kerning: none;
     tab-size: 8;
-    user-select: none;
+    /* Selectable, so a pane's text can be copied with the mouse or a long
+     * press; the keystrokes themselves go to the window, not the selection. */
+    user-select: text;
 }
 
 .terminal:focus { outline: 2px solid var(--blue); outline-offset: 2px; }

@@ -1,11 +1,11 @@
 {
   "channel": "evaluation",
   "profile": "forth",
-  "built_at": "2026-10-23T01:00:01Z",
-  "web_sw_tos_commit": "ceb81ac (image constants swapped at build time, not committed)",
-  "sw_tos_commit": "f52f1ea",
-  "sw_cor24_forth_commit": "97e4bfe",
-  "image": "crc24:f9d3ba",
-  "image_size": 61022,
-  "note": "Shell pane: bg forth. MENU lists 18 examples (13-17 loops/constants/variables, 18 defining, redefining and FORGET); n LOAD runs one, n LIST prints it, RESET starts over; words are case-insensitive; Escape (Ctrl-B e) ends. Tap the screen or the keyboard button to type on a phone."
+  "built_at": "2026-10-24T14:21:51Z",
+  "web_sw_tos_commit": "aed6901 (image constants swapped at build time, not committed)",
+  "sw_tos_commit": "c8d15ff",
+  "sw_cor24_forth_commit": "0f89bc3",
+  "image": "crc24:2c63a6",
+  "image_size": 62373,
+  "note": "Shell: bg forth. MENU lists 21 examples (19 hog: watch ps -l fp= climb, then kill ep=N). n LOAD / n LIST / RESET; case-insensitive. Phone: tap screen or keyboard button to type; use the commands menu for prefix keys (focus a pane, send Escape). Text is selectable for copy."
 }
