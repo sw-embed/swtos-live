@@ -1,11 +1,1 @@
-{
-  "channel": "evaluation",
-  "profile": "forth",
-  "built_at": "2026-10-24T14:21:51Z",
-  "web_sw_tos_commit": "aed6901 (image constants swapped at build time, not committed)",
-  "sw_tos_commit": "c8d15ff",
-  "sw_cor24_forth_commit": "0f89bc3",
-  "image": "crc24:2c63a6",
-  "image_size": 62373,
-  "note": "Shell: bg forth. MENU lists 21 examples (19 hog: watch ps -l fp= climb, then kill ep=N). n LOAD / n LIST / RESET; case-insensitive. Phone: tap screen or keyboard button to type; use the commands menu for prefix keys (focus a pane, send Escape). Text is selectable for copy."
-}
+{"commit":"acf15b1","built_at":"2026-10-30T15:49:35Z","image":"crc24:a36c3c","channel":"forth"}
